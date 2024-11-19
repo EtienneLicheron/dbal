@@ -90,6 +90,7 @@ final class DriverManager
         'pgsql'              => PgSQL\Driver::class,
         'sqlsrv'             => SQLSrv\Driver::class,
         'sqlite3'            => SQLite3\Driver::class,
+        'pdo_odbc'           => PDO\Odbc\Driver::class,
     ];
 
     /**
