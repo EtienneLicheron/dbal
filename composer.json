@@ -66,5 +66,10 @@
     },
     "autoload-dev": {
         "psr-4": { "Doctrine\\DBAL\\Tests\\": "tests" }
+    },
+    "extra": {
+       "branch-alias": {
+            "dev-main": "3.8.x-dev"
+        }
     }
 }
